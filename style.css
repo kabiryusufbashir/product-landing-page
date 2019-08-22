@@ -93,4 +93,11 @@ footer input[type="submit"]{
      height:200px;
   }
 
+  #header-img{
+    flex-basis: 200px;
+  }
+
+  #nav-bar{
+    flex-basis: 200px;
+  }
 }
