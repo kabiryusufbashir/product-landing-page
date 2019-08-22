@@ -47,4 +47,5 @@ main #video-frame{
 .col-quarter{
   width: 21%;
   margin: 2% 2%;
+  float: left;
 }
