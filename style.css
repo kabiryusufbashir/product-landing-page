@@ -4,6 +4,10 @@ body{
   font-family: cursive;
 }
 
+h1{
+  font-family: Lobster;
+}
+
 #header{
   display: flex;
   flex-wrap: wrap;
