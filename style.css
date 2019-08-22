@@ -43,3 +43,8 @@ main img{
 main #video-frame{
   margin: 10px 20%;
 }
+
+.col-quarter{
+  width: 21%;
+  margin: 2% 2%;
+}
