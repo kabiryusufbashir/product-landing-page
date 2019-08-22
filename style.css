@@ -58,7 +58,15 @@ footer{
 }
 
 footer input[type="email"]{
-  width: 55%;
+  width: 60%;
   height: 45px;
   padding: 1px 2.5%;
+}
+
+footer input[type="submit"]{
+  width: 10%;
+  height: 50px;
+  background: green;
+  color: #fff;
+  border: none;
 }
