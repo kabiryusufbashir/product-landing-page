@@ -56,3 +56,9 @@ footer{
   padding: 2% 10%;
   float: left;
 }
+
+footer input[type="email"]{
+  width: 55%;
+  height: 45px;
+  padding: 1px 2.5%;
+}
