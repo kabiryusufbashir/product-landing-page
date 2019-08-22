@@ -16,7 +16,7 @@ body{
 }
 
 #header img{
-  width: 10px;
+  width: 1%;
 }
 
 #nav-bar{
@@ -94,10 +94,15 @@ footer input[type="submit"]{
   }
 
   #header-img{
+    flex-grow: 1;
     flex-basis: 200px;
   }
 
   #nav-bar{
     flex-basis: 200px;
+  }
+
+  nav ul{
+    justify-content:space-between;
   }
 }
