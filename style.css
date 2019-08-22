@@ -10,7 +10,6 @@ body{
 
 #header-img{
   flex-grow: 1;
-  background: pink;
 }
 
 #header img{
@@ -18,5 +17,13 @@ body{
 }
 
 #nav-bar{
-  flex-grow: 10;
+  background: #333;
+  flex-grow: 11;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
 }
