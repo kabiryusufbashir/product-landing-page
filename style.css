@@ -49,3 +49,10 @@ main #video-frame{
   margin: 2% 2%;
   float: left;
 }
+
+footer{
+  width: 80%;
+  background: #ddd;
+  padding: 2% 10%;
+  float: left;
+}
