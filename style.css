@@ -1,6 +1,7 @@
 body{
   margin: 0px;
   padding: 0px;
+  font-family: cursive;
 }
 
 #header{
@@ -11,6 +12,7 @@ body{
 
 #header-img{
   flex-grow: 1;
+  margin-left: 2%;
 }
 
 #header img{
@@ -36,4 +38,8 @@ nav a{
 main img{
   width: 100%;
   height: auto;
+}
+
+main #video-frame{
+  margin: 10px 20%;
 }
