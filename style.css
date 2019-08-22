@@ -40,8 +40,10 @@ main img{
   height: auto;
 }
 
-main #video-frame{
-  margin: 10px 20%;
+#video{
+  margin: 10px 10%;
+  width:80%;
+  height:350px;
 }
 
 .col-quarter{
@@ -74,5 +76,21 @@ footer input[type="submit"]{
 }
 
 @media screen and  (max-width: 760px){
-  
+  .col-quarter{
+    width: 94%;
+  }
+
+  footer input[type="email"]{
+    width: 94%;
+    margin-bottom: 1%;
+  }
+
+  footer input[type="submit"]{
+    width: 100%;
+  }
+
+  #video{
+     height:200px;
+  }
+
 }
