@@ -45,9 +45,11 @@ main #video-frame{
 }
 
 .col-quarter{
-  width: 21%;
-  margin: 2% 2%;
+  width: 19%;
+  margin: 2% 1%;
   float: left;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  padding: 2%;
 }
 
 footer{
@@ -69,4 +71,8 @@ footer input[type="submit"]{
   background: green;
   color: #fff;
   border: none;
+}
+
+@media screen and  (max-width: 760px){
+  
 }
