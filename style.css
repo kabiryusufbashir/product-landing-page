@@ -4,6 +4,7 @@ body{
   margin: 0px;
   padding: 0px;
   font-family: cursive;
+  position: relative;
 }
 
 h1{
@@ -17,8 +18,8 @@ h1{
   position: fixed;
   top: 0px;
   width: 100%;
-  min-height: 70px;
-  background: #fff;
+  background: #000;
+  float: left;
 }
 
 #header-img{
@@ -47,7 +48,7 @@ nav a{
 }
 
 main{
-  
+  margin-top: 9%;
 }
 
 main img{
