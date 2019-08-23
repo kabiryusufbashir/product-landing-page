@@ -18,7 +18,7 @@ h1{
   position: fixed;
   top: 0px;
   width: 100%;
-  background: #000;
+  background: #333;
   float: left;
 }
 
@@ -44,7 +44,7 @@ nav ul{
 
 nav a{
   text-decoration: none;
-  color: #333;
+  color: #fff;
 }
 
 main{
@@ -72,9 +72,10 @@ main img{
 
 footer{
   width: 80%;
-  background: #ddd;
+  background: #333;
   padding: 2% 10%;
   float: left;
+   color: #fff;
 }
 
 footer input[type="email"]{
@@ -109,16 +110,17 @@ footer input[type="submit"]{
      height:200px;
   }
 
-  #header-img{
-    flex-grow: 1;
-    flex-basis: 200px;
+  #header{
+    display: block;
+    text-align: center;
+    padding-top: 1%;
   }
 
-  #nav-bar{
-    flex-basis: 200px;
+  #header img{
+    width: 50%;
   }
 
-  nav ul{
-    justify-content:space-between;
+  main{
+    margin-top: 70%;
   }
 }
